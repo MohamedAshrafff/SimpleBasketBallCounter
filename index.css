@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color:darkblue;  
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.container #guest{
+      text-align: center;
+    background-color:black;  
+    color: red;
+    width:100px;
+    height: 60px;
+    font-size: 50px;
+    font-family:cursive;
+    margin-bottom:10px;
+}
+.container #home {
+    text-align: center;
+    background-color:black;  
+    color: red;
+    width:100px;
+    height: 60px;
+    font-size: 50px;
+    font-family:cursive;
+    margin-bottom:10px;
+}
+
+button{
+    background-color:transparent; 
+    border:1px solid white;
+    color:#DDD;
+    font-family:cursive;
+    margin: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reset-btn{
+    display: block;
+    align-self:flex-end;   
+    position: absolute;
+    bottom: -33px;
+}
